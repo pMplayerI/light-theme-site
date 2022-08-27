@@ -69,7 +69,7 @@ $(document).ready(function () {
 	//Khi reload trang này sẽ trở lại trang index
 	window.onbeforeunload = function () {
 		window.setTimeout(function () {
-			window.location = "#";
+			window.location = "https://pmplayeri.github.io/index-site/";
 		}, 0);
 		window.onbeforeunload = null; // necessary to prevent infinite loop, that kills your browser
 	}
